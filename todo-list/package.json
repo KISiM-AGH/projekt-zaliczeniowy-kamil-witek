@@ -1,0 +1,41 @@
+{
+    "name": "todo-list",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix",
+        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@mui/icons-material": "^5.11.0",
+        "@mui/material": "^5.11.6",
+        "jotai": "^2.0.2",
+        "localforage": "^1.10.0",
+        "match-sorter": "^6.3.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.42.1",
+        "react-router-dom": "^6.8.0",
+        "unfetch": "^5.0.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^3.0.1",
+        "eslint": "^8.32.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-jsx-a11y": "^6.7.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.32.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "prettier": "^2.8.3",
+        "vite": "^4.0.4"
+    }
+}

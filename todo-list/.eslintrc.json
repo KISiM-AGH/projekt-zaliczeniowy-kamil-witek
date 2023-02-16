@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:import/errors", "plugin:import/warnings"],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": ["react", "import"],
+    "rules": {
+        "no-extra-boolean-cast": 1,
+        "import/no-unresolved": 1,
+        "import/named": 2,
+        "import/namespace": 1,
+        "import/no-named-as-default": 0,
+        "import/export": 2,
+        "import/no-self-import": 2,
+        "import/no-absolute-path": 2,
+        "import/no-cycle": 2,
+        "import/no-useless-path-segments": 1,
+        "import/no-deprecated": 1,
+        "no-await-in-loop": 1,
+        "array-callback-return": 2,
+        "no-duplicate-imports": 1,
+        "no-promise-executor-return": 1,
+        "no-self-compare": 1,
+        "no-use-before-define": 1,
+        "react/no-did-mount-set-state": 1,
+        "react/no-did-update-set-state": 1
+    }
+}
